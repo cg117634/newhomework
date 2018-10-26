@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>8</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>16</x>
+      <y>88</y>
+      <w>168</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>TheGameGraphics
+--
+panes
+Stage/Scene
+images
+
+
+--
+buttons
+
+
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>384</x>
+      <y>72</y>
+      <w>136</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>Enemy
+--
+-enemyMoveLeft
+-enemyMoveRight
+-enemyMoveUp
+-enemyMoveDown
+-enemyHealth
+--
++moveEnemyLeft
++moveEnemyRight
++moveEnemyUp
++moveEnemyDown
+-returnEnemyHealth</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>248</x>
+      <y>272</y>
+      <w>168</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>Movement
+--
+-moveLeft
+-moveRight
+-moveUp
+-moveDown
+--
++moveObjLeft
++moveObjRight
++moveObjUp
++moveObjDown</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>24</x>
+      <y>288</y>
+      <w>168</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Player
+--
+-score
+
+--
++returnScore
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>184</x>
+      <y>328</y>
+      <w>80</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+</panel_attributes>
+    <additional_attributes>80.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>88</x>
+      <y>200</y>
+      <w>24</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;110.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>176</x>
+      <y>160</y>
+      <w>224</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;260.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>408</x>
+      <y>224</y>
+      <w>40</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+</panel_attributes>
+    <additional_attributes>10.0;60.0;30.0;10.0</additional_attributes>
+  </element>
+</diagram>
